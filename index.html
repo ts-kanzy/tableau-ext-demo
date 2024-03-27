@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>シンプルな拡張機能</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Tableau Extention API -->
+    <!-- CDNの情報はhttps://community.tableau.com/s/question/0D54T000006B4NASA0/tableau-extension-cdn-->
+    <script src="https://extensions.tableauusercontent.com/resources/tableau.extensions.1.latest.min.js"></script>
+    
+    <!-- 自分のスクリプト -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h4>データソース一覧</h4>
+        <table id="dataSourcesTable" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ソース名</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+</body>
+
+</html>
